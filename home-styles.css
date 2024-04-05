@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+/* Header and Navigation */
+
+.header-title-container {
+  background-color: #000;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+div.header-title h1 {
+  font-family: "Spectral SC", serif;
+  color: #f1f0f6;
+  text-decoration: underline;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+}
+
+div.header-social-links {
+  position: absolute;
+  right: 0;
+}
+
+div.header-social-links a {
+  text-decoration: none;
+}
+
+.social-icon {
+  margin-right: 20px;
+}
+
+div.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.logo img {
+  width: 100px;
+}
+
+.nav-item:hover,
+.dropdown-item:hover {
+  text-decoration: overline;
+}
+
+/* Hero Container */
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./pine-city-mall/images/main-app/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.hero-text {
+  backdrop-filter: blur(10px);
+  position: relative;
+  top: 60%;
+  left: 45%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.hero-text h2 {
+  display: block;
+  border-bottom: 4px solid #f2cd6d;
+  width: 100%;
+  font-size: 50px;
+  color: #000;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 1.6px;
+}
+
+.hero-title p {
+  color: #000;
+  font-size: 20px;
+}
+
+/* Operating Times Container */
+
+.operation-times-container {
+  background-color: #c69638;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.info-desc p {
+  margin: 0;
+}
+
+/* Carousel */
+
+.carousel-item img {
+  width: 100%;
+  height: 550px;
+}
+
+.carousel-caption {
+  color: #000;
+  backdrop-filter: blur(2px);
+}
+
+/* Feature cards */
+
+.movies {
+  background-color: #ad9190;
+}
+
+.movie-banner {
+  margin: auto;
+}
+
+.decor {
+  background-color: #e5e3e0;
+}
+
+.decor-promo {
+  color: #4d1e02;
+  font-weight: 700;
+}
+
+.pine-nut {
+  background-color: #afa98e;
+}
+
+.pine-nut-tn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.pine-nut-tn img {
+  width: 250px;
+}
+
+.featurette p {
+  font-weight: 400;
+}
+
+/* Footer */
+
+footer {
+  background: url("./pine-city-mall/images/index-specials/footer.png") no-repeat
+    center;
+  padding: 15px;
+  background-size: cover;
+}
+
+.footer-logo {
+  width: 170px;
+  border-radius: 20px;
+}
