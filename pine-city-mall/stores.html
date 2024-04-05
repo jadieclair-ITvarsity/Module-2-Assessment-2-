@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pine City Mall - About</title>
+    <title>Pine City Mall - Stores</title>
     <link rel="stylesheet" href="../home-styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,7 +24,6 @@
     ></script>
   </head>
   <body>
-
     <!-- Main Heading -->
 
     <div class="container-fluid">
@@ -33,8 +32,8 @@
           <div class="logo">
             <a class="navbar-brand" href="../index.html">
               <img
-                src="../pine-city-mall/images/main-app/gold-logo.png"
-                alt="Logo"
+                src="./images/main-app/gold-logo.png"
+                alt="Pine City Mall Logo"
             /></a>
           </div>
           <div class="header-title">
@@ -118,17 +117,18 @@
                 <a
                   class="nav-link"
                   aria-current="page"
-                  href="#"
+                  href="./about.html"
                   >About</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./map.html">Map</a>
               </li>
-                     <li class="nav-item">
-                <a class="nav-link" href="./stores.html"
+              <li class="nav-item">
+                <a class="nav-link" href="#"
                   >Stores</a
                 >
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="./entertainment.html"
                   >Entertainment</a
@@ -139,7 +139,8 @@
                   >Contact</a
                 >
               </li>
-          <li class="nav-item dropdown">
+
+              <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
                   href="./pine-city-mall/shop-list.html"
@@ -164,6 +165,8 @@
                     <a class="dropdown-item" href="#">Activities</a>
                   </li>
                 </ul>
+              </li>
+            </ul>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -214,135 +217,277 @@
               </li>
             </ul>
           </div>
-        </nav> 
+        </nav>
 
-  <!-- Main content -->
+        <!-- Hero Section -->
+
+        <div class="hero-container">
+          <div class="hero-text">
+            <h2>Where Shopping is an Art</h2>
+            <div class="hero-overlay d-flex">
+              <div class="hero-title">
+                <p>
+                  Enjoy a seamless shopping experience with safe parking and a
+                  kids play area.
+                </p>
+                <button type="button" class="btn btn-outline-dark">
+                  <a href="./pine-city-mall/about.html">Learn More</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!--  Carousel  -->
 
       <main>
-        <div>
-          <h1 class="text-center my-3">About The Mall</h1>
-          <div class="about-text px-5 py-3 watermark">
-          <p>
-            Welcome to Pine City Mall (MBK Group), a luxury shopping destination nestled in
-            the heart of Johannesburg, South Africa. Here, we pride ourselves on
-            offering an unparalleled shopping experience, featuring top clothing
-            brands and boutique stores that cater to the discerning tastes of
-            our clientele. Step into our world-renowned cinema theater, where
-            you can indulge in the latest blockbuster hits in the comfort of
-            reclining chairs, complete with a bar and onsite kitchen for your
-            enjoyment. Our commitment to providing world-class entertainment
-            extends beyond the silver screen, ensuring that every visit is
-            nothing short of extraordinary.
-            </p>
-            <p>
-            Savor the flavors of excellence at
-            our array of restaurants, offering diverse dining experiences that
-            showcase the finest culinary creations. Whether you're craving
-            international cuisine or local delicacies, our establishments
-            promise to delight your palate and elevate your dining experience.
-            At Pine City Mall, we prioritize the safety and comfort of our
-            guests. With ample parking facilities, kids' play areas, and
-            childcare facilities, we ensure that every member of the family is
-            catered to.
-          </p>
+        <div
+          id="myCarousel"
+          class="carousel slide mb-6"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="img-fluid"
+                src="./pine-city-mall/images/index-specials/technology.jpg"
+                alt=""
+              />
+              <div class="container">
+                <div class="carousel-caption">
+                  <div class="carousel-blur">
+                    <h1>Home Office Up-Tech</h1>
+                    <p>
+                      Get your tech game on with unbeatable deals and discounts
+                      on the latest gadgets and home office designs!
+                    </p>
+                  </div>
+                  <p>
+                    <a class="btn btn-lg btn-dark" href="#">Learn More</a>
+                    <a class="btn btn-lg btn-dark ms-2" href="#">Contact Us</a>
+                  </p>
+                </div>
+              </div>
             </div>
-          <p class="zoo px-5 text-center">
-             Plus, dont miss the opportunity to explore our newly
-            established zoo, located nearby, for a memorable and enriching
-            experience.
-            <br />
-            Join us at Pine City Mall, where luxury meets leisure,
-            and every moment is an opportunity to indulge in the extraordinary.
-          </p>       
-               <div class="hero-container-about">
-       <img 
-      class="img-fluid rounded mt-3"
-       src="./images/about-page/about-hero.png" alt="" />  
+            <div class="carousel-item">
+              <img
+                class="img-fluid"
+                src="./pine-city-mall/images/index-specials/resturant.jpg"
+                alt=""
+              />
+              <div class="container">
+                <div class="carousel-caption">
+                  <div class="carousel-blur">
+                    <h1>Date Night Deals</h1>
+                    <p>
+                      Indulge in romance and luxury with our exclusive Date
+                      Night Promotion! Elevate your evening with exquisite
+                      dining experiences, captivating entertainment, and
+                      unforgettable moments.
+                    </p>
+                  </div>
+                  <p>
+                    <a class="btn btn-lg btn-dark" href="#">Learn more</a>
+                    <a class="btn btn-lg btn-dark ms-2" href="#"
+                      >Make Booking</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-fluid"
+                src="./pine-city-mall/images/index-specials/fashion.jpg"
+                alt=""
+              />
+              <div class="container">
+                <div class="carousel-caption">
+                  <div class="carousel-blur text-dark">
+                    <h1>Winter is Coming!</h1>
+                    <p>
+                      Elevate your cold-weather wardrobe with fashionable
+                      essentials that will keep you cozy and chic all season
+                      long.
+                    </p>
+                  </div>
+                  <p>
+                    <a class="btn btn-lg btn-dark" href="#">Learn more</a>
+                    <a class="btn btn-lg btn-dark ms-2" href="#">Contact Us</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+
+        <!-- Promotions Button -->
+
+        <div class="large-promo-btn mt-4">
+          <div class="col-lg-6 col-xxl-4 my-3 mx-auto mb-4">
+            <div class="text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                fill="currentColor"
+                class="bi bi-arrow-right-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+                />
+              </svg>
+              <button class="btn btn-outline-dark ms-2" type="button">
+                Veiw all Promotions and Specials
+              </button>
+            </div>
+          </div>
         </div>
-   
 
         <!-- Feature Cards -->
 
-        <div class="row featurette p-3 mt-5">
+        <div class="row featurette movies p-3">
           <div class="col-md-7">
             <h2 class="featurette-heading text-center mt-3">
-        Centre Management            
+              Pine City Mall <i>Movie Festival 2024</i>
             </h2>
+            <h3 class="text-body-secondary text-center">Limited seats!</h3>
+
             <br />
             <p class="lead text-center pt-2">
-         You can find our centre management office on the upper level, and then use the passage across from Absa Bank - SEE PURPLE SECTION <a href="./map.html"><i>Mall Map</i></a>.
+              Join us for the Pine City Mall Movie Festival 2024! Enjoy
+              blockbuster hits, <b>free</b> popcorn, and drinks while
+              experiencing the magic of cinema.
+              <br />
+              <br />
+              Secure your tickets now for an unforgettable movie-going
+              experience!
             </p>
-            <ul class="text-center management">
-              <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-</svg>Reception Desk</li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-</svg>086 001 5453</li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-</svg>Lucky Dube (General Manager)</li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-</svg>lucky@pinecity-mall.com</li>
-          </ul>
-          </div>
-          <div class="col-md-5 info">
             <img
-              class="img-fluid rounded"
-              src="./images/about-page/center-managment.jpg"
+              class="movie-banner rounded-pill mt-2 p-4 img-fluid"
+              src="./pine-city-mall/images/index-specials/movie-banner.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-5">
+            <img
+              class="img-fluid movies rounded img-fluid"
+              src="./pine-city-mall/images/index-specials/movies.png"
               alt=""
             />
           </div>
         </div>
-        <div class="row featurette p-3">
+        <div class="row featurette p-3 decor">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading text-center mt-3">
-         Security
+              UrbanScape Interiors and Designs
             </h2>
-            <p class="lead text-center"> 
-Fidelity Security Services provides round-the-clock manned security at Pine City Shopping Mall. Our highly trained guards offer 24/7 onsite assistance, ensuring the safety and well-being of all visitors.
-<br />
-<br />
-With security patrols operating 24/7, 365 days a year, you can shop with peace of mind knowing that your safety is our top priority. Our guards are equipped with radio communication linked to a central control center, allowing for continuous monitoring of the CCTV systems that cover the shopping Mall.
+            <h3 class="text-body-secondary text-center">See for yourself</h3>
+
+            <p class="lead text-center">
+              Transform your living space into a haven of style and comfort with
+              UrbanScape Interiors and Designs. From chic furnishings to
+              captivating decor accents, we offer curated collections that
+              elevate every corner of your home.
+              <br />
+              <br />
+              <span class="decor-promo">
+                We are currently running a 50% off on all main bedroom design
+                plans. Dont miss out on this exclusive offer – schedule your
+                consultation today and let us bring your vision to life!</span
+              >
             </p>
           </div>
-          <div class="col-md-5 order-md-1 info">
+          <div class="col-md-5 order-md-1">
             <img
-              class="img-fluid rounded"
-              src="./images/about-page/camera-monitoring.jpg"
+              class="decor-img img-fluid rounded"
+              src="./pine-city-mall/images/index-specials/decor.jpg"
               alt=""
             />
           </div>
         </div>
-        <div class="row featurette p-3">
+        <div class="row featurette p-3 pine-nut">
           <div class="col-md-7">
             <h2 class="featurette-heading text-center mt-3">
-        Leasing Enquiries
-
+              Pine Nut Resturant
             </h2>
-            <p class="lead text-center pt-1">
-     Interested in joining Pine City Shopping Mall as a tenant? Contact us today for leasing inquiries and discover the perfect opportunity to showcase your brand in our prestigious shopping destination. With prime location, high foot traffic, and a diverse range of stores, Pine City offers the ideal environment for your business to thrive.
-     <br />
-<br />
- <ul class="text-center management">
-              <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-</svg>Michelle Ndlovu</li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-</svg>086 001 5478</li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-</svg>michelle@pinecity-mall.com</li>
-          </ul>
+            <h3 class="text-body-secondary text-center">Go Nuts!</h3>
+            <p class="lead text-center pt-3">
+              Indulge in a taste sensation at Pine Nut Restaurant, where
+              weekdays mean irresistible lunch specials! Join us for a midday
+              feast and savor the flavors of the season with our delectable
+              lunch specials.
+              <br />
+              <br />
+              We cater for corporate events with our exclusive VIP catering
+              service. Let us bring exceptional cuisine and impeccable service
+              to your next corporate gathering.
             </p>
+            <div class="pine-nut-tn pt-5">
+              <img
+                class="img-fluid rounded"
+                src="pine-city-mall/images/index-specials/pine-nut-tn-1.jpg"
+                alt=""
+              />
+              <img
+                class="img-fluid rounded"
+                src="pine-city-mall/images/index-specials/pine-nut-tn-2.jpg"
+                alt=""
+              />
+              <img
+                class="img-fluid rounded"
+                src="pine-city-mall/images/index-specials/pine-nut-tn-3.jpg"
+                alt=""
+              />
+            </div>
           </div>
-          <div class="col-md-5 info">
+          <div class="col-md-5">
             <img
               class="img-fluid rounded"
-              src="./images/about-page/leasing.jpg"
+              src="./pine-city-mall/images/index-specials/pine-nut.png"
               alt=""
             />
             <img src="" alt="" />
@@ -357,25 +502,25 @@ With security patrols operating 24/7, 365 days a year, you can shop with peace o
           <div class="col-6 col-md-2 mb-3">
             <img
               class="footer-logo"
-              src="../pine-city-mall/images/main-app/gold-logo.png"
+              src="pine-city-mall/images/main-app/gold-logo.png"
               alt=""
             />
           </div>
           <div class="col-6 col-md-2 mb-3">
             <ul class="nav flex-column pt-4">
               <li class="nav-item mb-2">
-                <a href="../index.html" class="nav-link p-0 text-body-secondary">Home</a>
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
               </li>
               <li class="nav-item mb-2">
                 <a
-                  href="#"
+                  href="./pine-city-mall/about.html"
                   class="nav-link p-0 text-body-secondary"
                   >About</a
                 >
               </li>
               <li class="nav-item mb-2">
                 <a
-                  href="./map.html"
+                  href="./pine-city-mall/map.html"
                   class="nav-link p-0 text-body-secondary"
                   >Map</a
                 >
@@ -388,15 +533,19 @@ With security patrols operating 24/7, 365 days a year, you can shop with peace o
           <div class="col-6 col-md-2 mb-3">
             <ul class="nav flex-column pt-4">
               <li class="nav-item mb-2">
-                <a href="./stores.html" class="nav-link p-0 text-body-secondary">Stores</a>
+                <a
+                  href="./pine-city-mall/stores.html"
+                  class="nav-link p-0 text-body-secondary"
+                  >Shops</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a href="./entertainment.html" class="nav-link p-0 text-body-secondary"
+                <a href="#" class="nav-link p-0 text-body-secondary"
                   >Entertainment</a
                 >
               </li>
               <li class="nav-item mb-2">
-                <a href="./contact.html" class="nav-link p-0 text-body-secondary">Contact</a>
+                <a href="#" class="nav-link p-0 text-body-secondary">Contact</a>
               </li>
             </ul>
           </div>
