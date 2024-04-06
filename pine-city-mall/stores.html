@@ -26,7 +26,7 @@
   <body>
     <!-- Main Heading -->
 
-    <div class="container-fluid">
+    <div class="container-fluid stores-page">
       <header>
         <div class="header-title-container">
           <div class="logo">
@@ -111,13 +111,12 @@
               style="--bs-scroll-height: 100px"
             >
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="./about.html"
+                <a class="nav-link" aria-current="page" href="./about.html"
                   >About</a
                 >
               </li>
@@ -125,9 +124,7 @@
                 <a class="nav-link" href="./map.html">Map</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
-                  >Stores</a
-                >
+                <a class="nav-link" href="#">Stores</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./entertainment.html"
@@ -135,9 +132,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contact.html"
-                  >Contact</a
-                >
+                <a class="nav-link" href="./contact.html">Contact</a>
               </li>
 
               <li class="nav-item dropdown">
@@ -167,8 +162,7 @@
                 </ul>
               </li>
             </ul>
-              </li>
-            </ul>
+
             <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
@@ -221,276 +215,334 @@
 
         <!-- Hero Section -->
 
-        <div class="hero-container">
-          <div class="hero-text">
-            <h2>Where Shopping is an Art</h2>
-            <div class="hero-overlay d-flex">
-              <div class="hero-title">
-                <p>
-                  Enjoy a seamless shopping experience with safe parking and a
-                  kids play area.
-                </p>
-                <button type="button" class="btn btn-outline-dark">
-                  <a href="./pine-city-mall/about.html">Learn More</a>
-                </button>
-              </div>
-            </div>
-          </div>
+        <div class="hero-container-stores">
+          <img class="img-fluid" src="./images/stores/hero.png" alt="" />
+        </div>
+        <div class="stores-subheading text-center">
+          <h2 class="py-3">Shop by Category</h2>
+          <p>
+            Explore Prestigious Brands and Unparalleled Selections at Pine City
+            Shopping Mall!
+          </p>
         </div>
       </header>
 
-      <!--  Carousel  -->
+      <!-- Feature Cards -->
 
       <main>
-        <div
-          id="myCarousel"
-          class="carousel slide mb-6"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                class="img-fluid"
-                src="./pine-city-mall/images/index-specials/technology.jpg"
-                alt=""
-              />
-              <div class="container">
-                <div class="carousel-caption">
-                  <div class="carousel-blur">
-                    <h1>Home Office Up-Tech</h1>
-                    <p>
-                      Get your tech game on with unbeatable deals and discounts
-                      on the latest gadgets and home office designs!
-                    </p>
-                  </div>
-                  <p>
-                    <a class="btn btn-lg btn-dark" href="#">Learn More</a>
-                    <a class="btn btn-lg btn-dark ms-2" href="#">Contact Us</a>
-                  </p>
-                </div>
+        <div class="row mb-2">
+          <h2 class="store-categories mt-4">Fashion Walk</h2>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-light">
+                <h3 class="mb-0">Guess</h3>
+                <br />
+                <p class="card-text mb-auto">
+                  Introducing Our Winter Range — Everyday Fashion Trends With
+                  Free Shipping On All Orders Over R799, Available Nationwide.
+                  From Jeans To Jackets & Everything In Between. Spoil Yourself
+                  This Winter...
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue to Store
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                class="img-fluid"
-                src="./pine-city-mall/images/index-specials/resturant.jpg"
-                alt=""
-              />
-              <div class="container">
-                <div class="carousel-caption">
-                  <div class="carousel-blur">
-                    <h1>Date Night Deals</h1>
-                    <p>
-                      Indulge in romance and luxury with our exclusive Date
-                      Night Promotion! Elevate your evening with exquisite
-                      dining experiences, captivating entertainment, and
-                      unforgettable moments.
-                    </p>
-                  </div>
-                  <p>
-                    <a class="btn btn-lg btn-dark" href="#">Learn more</a>
-                    <a class="btn btn-lg btn-dark ms-2" href="#"
-                      >Make Booking</a
-                    >
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                class="img-fluid"
-                src="./pine-city-mall/images/index-specials/fashion.jpg"
-                alt=""
-              />
-              <div class="container">
-                <div class="carousel-caption">
-                  <div class="carousel-blur text-dark">
-                    <h1>Winter is Coming!</h1>
-                    <p>
-                      Elevate your cold-weather wardrobe with fashionable
-                      essentials that will keep you cozy and chic all season
-                      long.
-                    </p>
-                  </div>
-                  <p>
-                    <a class="btn btn-lg btn-dark" href="#">Learn more</a>
-                    <a class="btn btn-lg btn-dark ms-2" href="#">Contact Us</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
-        <!-- Promotions Button -->
-
-        <div class="large-promo-btn mt-4">
-          <div class="col-lg-6 col-xxl-4 my-3 mx-auto mb-4">
-            <div class="text-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="28"
-                height="28"
-                fill="currentColor"
-                class="bi bi-arrow-right-circle"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+              <div class="col-auto d-none d-lg-block bg-light shadow-lg">
+                <img
+                  class="stores-img"
+                  src="./images/stores/guess-logo.png"
+                  alt=""
                 />
-              </svg>
-              <button class="btn btn-outline-dark ms-2" type="button">
-                Veiw all Promotions and Specials
-              </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-light">
+                <h3 class="mb-0">Nicci Boutique</h3>
+                <br />
+                <p class="mb-auto">
+                  Nicci Boutique has the latest fashion styles of chic items
+                  that will have you dressing spot on trend for the upcoming
+                  seasons, while still creating a directional brand experience.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue to Store
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block bg-light shadow-lg">
+                <img
+                  class="stores-img"
+                  src="./images/stores/nicci.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Feature Cards -->
-
-        <div class="row featurette movies p-3">
-          <div class="col-md-7">
-            <h2 class="featurette-heading text-center mt-3">
-              Pine City Mall <i>Movie Festival 2024</i>
-            </h2>
-            <h3 class="text-body-secondary text-center">Limited seats!</h3>
-
-            <br />
-            <p class="lead text-center pt-2">
-              Join us for the Pine City Mall Movie Festival 2024! Enjoy
-              blockbuster hits, <b>free</b> popcorn, and drinks while
-              experiencing the magic of cinema.
-              <br />
-              <br />
-              Secure your tickets now for an unforgettable movie-going
-              experience!
-            </p>
-            <img
-              class="movie-banner rounded-pill mt-2 p-4 img-fluid"
-              src="./pine-city-mall/images/index-specials/movie-banner.png"
-              alt=""
-            />
-          </div>
-          <div class="col-md-5">
-            <img
-              class="img-fluid movies rounded img-fluid"
-              src="./pine-city-mall/images/index-specials/movies.png"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="row featurette p-3 decor">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading text-center mt-3">
-              UrbanScape Interiors and Designs
-            </h2>
-            <h3 class="text-body-secondary text-center">See for yourself</h3>
-
-            <p class="lead text-center">
-              Transform your living space into a haven of style and comfort with
-              UrbanScape Interiors and Designs. From chic furnishings to
-              captivating decor accents, we offer curated collections that
-              elevate every corner of your home.
-              <br />
-              <br />
-              <span class="decor-promo">
-                We are currently running a 50% off on all main bedroom design
-                plans. Dont miss out on this exclusive offer – schedule your
-                consultation today and let us bring your vision to life!</span
-              >
-            </p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img
-              class="decor-img img-fluid rounded"
-              src="./pine-city-mall/images/index-specials/decor.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="row featurette p-3 pine-nut">
-          <div class="col-md-7">
-            <h2 class="featurette-heading text-center mt-3">
-              Pine Nut Resturant
-            </h2>
-            <h3 class="text-body-secondary text-center">Go Nuts!</h3>
-            <p class="lead text-center pt-3">
-              Indulge in a taste sensation at Pine Nut Restaurant, where
-              weekdays mean irresistible lunch specials! Join us for a midday
-              feast and savor the flavors of the season with our delectable
-              lunch specials.
-              <br />
-              <br />
-              We cater for corporate events with our exclusive VIP catering
-              service. Let us bring exceptional cuisine and impeccable service
-              to your next corporate gathering.
-            </p>
-            <div class="pine-nut-tn pt-5">
-              <img
-                class="img-fluid rounded"
-                src="pine-city-mall/images/index-specials/pine-nut-tn-1.jpg"
-                alt=""
-              />
-              <img
-                class="img-fluid rounded"
-                src="pine-city-mall/images/index-specials/pine-nut-tn-2.jpg"
-                alt=""
-              />
-              <img
-                class="img-fluid rounded"
-                src="pine-city-mall/images/index-specials/pine-nut-tn-3.jpg"
-                alt=""
-              />
+        <div class="row mb-2">
+          <h2 class="store-categories">Dining</h2>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-light">
+                <h3 class="mb-0">Jamie's Italian</h3>
+                <br />
+                <p class="card-text mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue to Store
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block bg-light shadow-lg">
+                <img
+                  class="stores-img"
+                  src="https://allthingscruise.com/wp-content/uploads/Jamie-Oliver.jpg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-          <div class="col-md-5">
-            <img
-              class="img-fluid rounded"
-              src="./pine-city-mall/images/index-specials/pine-nut.png"
-              alt=""
-            />
-            <img src="" alt="" />
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-light">
+                <h3 class="mb-0">Pine Nut Restaurant</h3>
+                <br />
+                <p class="mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue to Store
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block bg-light shadow-lg">
+                <img
+                  class="stores-img"
+                  src="./images/stores/pine-nut.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <h2 class="store-categories">Electronic Circuit</h2>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-light">
+                <h3 class="mb-0">Incredible Connection</h3>
+                <br />
+                <p class="card-text mb-auto">
+                  Incredible Connection is a consumer electronics and IT
+                  retailer. As South Africa's largest Tech retailer, we offer
+                  the widest range of leading brands and make first-to-market
+                  innovation accessible to all.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue to Store
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block bg-light shadow-lg">
+                <img
+                  class="stores-img"
+                  src="./images/stores/incredible.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-light">
+                <h3 class="mb-0">Up-Tech</h3>
+                <br />
+                <p class="mb-auto">
+                  Up-Tech is your destination for home office solutions and tech
+                  essentials. As a premier retailer specializing in home office
+                  setups, we provide a wide selection of top brands and
+                  cutting-edge innovations.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue to Store
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block bg-light shadow-lg">
+                <img
+                  class="stores-img"
+                  src="./images/stores/up-tech.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <h2 class="store-categories">Home Care</h2>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-light">
+                <h3 class="mb-0">Featured post</h3>
+                <br />
+                <p class="card-text mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This is a wider card with
+                  supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue to Store
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block bg-light shadow-lg">
+                <img
+                  class="stores-img"
+                  src="./images/stores/urbanscapes.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-light">
+                <h3 class="mb-0">The Home Quarter</h3>
+                <br />
+                <p class="mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue to Store
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block bg-light shadow-lg">
+                <img
+                  class="stores-img"
+                  src="./images/stores/home-quarter.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <h2 class="store-categories">Activities</h2>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-light">
+                <h3 class="mb-0">Pine City Mall Movies</h3>
+                <br />
+                <p class="card-text mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue to Store
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+
+              <div class="col-auto d-none d-lg-block bg-light shadow-lg">
+                <img
+                  class="stores-img"
+                  src="./images/stores/movies.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-light">
+                <h3 class="mb-0">Pine City Zoo</h3>
+                <br />
+                <p class="mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue to Store
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block bg-light shadow-lg">
+                <img class="stores-img" src="./images/stores/zoo.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </main>
@@ -502,26 +554,24 @@
           <div class="col-6 col-md-2 mb-3">
             <img
               class="footer-logo"
-              src="pine-city-mall/images/main-app/gold-logo.png"
+              src="./images/main-app/gold-logo.png"
               alt=""
             />
           </div>
           <div class="col-6 col-md-2 mb-3">
             <ul class="nav flex-column pt-4">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                <a href="../index.html" class="nav-link p-0 text-body-secondary"
+                  >Home</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a
-                  href="./pine-city-mall/about.html"
-                  class="nav-link p-0 text-body-secondary"
+                <a href="./about.html" class="nav-link p-0 text-body-secondary"
                   >About</a
                 >
               </li>
               <li class="nav-item mb-2">
-                <a
-                  href="./pine-city-mall/map.html"
-                  class="nav-link p-0 text-body-secondary"
+                <a href="./map.html" class="nav-link p-0 text-body-secondary"
                   >Map</a
                 >
               </li>
@@ -533,19 +583,21 @@
           <div class="col-6 col-md-2 mb-3">
             <ul class="nav flex-column pt-4">
               <li class="nav-item mb-2">
-                <a
-                  href="./pine-city-mall/stores.html"
-                  class="nav-link p-0 text-body-secondary"
-                  >Shops</a
-                >
+                <a href="#" class="nav-link p-0 text-body-secondary">Stores</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
+                <a
+                  href="./entertainment.html"
+                  class="nav-link p-0 text-body-secondary"
                   >Entertainment</a
                 >
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Contact</a>
+                <a
+                  href="./contact.html"
+                  class="nav-link p-0 text-body-secondary"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
