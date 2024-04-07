@@ -285,3 +285,9 @@ h2.store-categories {
   background-color: #dde2e6;
   outline: none;
 }
+
+/* Freature Movie */
+
+button.trailer a {
+  color: #fff;
+}
