@@ -286,8 +286,14 @@ h2.store-categories {
   outline: none;
 }
 
-/* Freature Movie */
+/* Feature Movie */
 
 button.trailer a {
   color: #fff;
+}
+
+/* Single Stores */
+
+.guess-color {
+  color: #9f5b67;
 }
