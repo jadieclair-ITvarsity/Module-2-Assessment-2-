@@ -11,15 +11,6 @@ body {
 
 button a {
   text-decoration: none;
-  color: #000;
-}
-
-button a:hover {
-  color: #fff;
-}
-
-.container-fluid {
-  padding: 0 !important;
 }
 
 /* Header and Navigation */
@@ -40,11 +31,6 @@ div.header-title h1 {
   font-size: 36px;
   font-weight: 600;
   letter-spacing: 1.6px;
-}
-
-div.header-social-links {
-  position: absolute;
-  right: 0;
 }
 
 div.header-social-links a {
@@ -72,8 +58,7 @@ div.logo img {
 
 /* Hero Container */
 
-.hero-container,
-.hero-container-stores {
+.hero-container {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -186,7 +171,7 @@ footer {
 }
 
 .footer-logo {
-  width: 170px;
+  width: 130px;
   border-radius: 20px;
 }
 
