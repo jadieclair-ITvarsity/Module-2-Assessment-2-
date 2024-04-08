@@ -292,8 +292,9 @@ button.trailer a {
   color: #fff;
 }
 
-/* Single Stores */
+/* FQA page */
 
-.guess-color {
-  color: #9f5b67;
+.faq {
+  background: url("./pine-city-mall/images/about-page/watermark.png") no-repeat
+    center center;
 }
