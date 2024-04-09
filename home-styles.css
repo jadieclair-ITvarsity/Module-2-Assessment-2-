@@ -143,9 +143,8 @@ img.pine-nut-tn {
 footer {
   background: url("./pine-city-mall/images/index-specials/footer.png") no-repeat
     center;
-  padding: 15px;
+  margin: 0 5px 0 5px;
   background-size: cover;
-  width: 100%;
 }
 
 .footer-logo {
