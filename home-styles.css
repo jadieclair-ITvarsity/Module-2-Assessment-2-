@@ -263,6 +263,12 @@ button.trailer a {
 
 /* Media Queries */
 
+@media screen and (max-width: 884px) {
+  .title h1 {
+    font-size: 26px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero-text {
     position: static;
@@ -277,7 +283,7 @@ button.trailer a {
     padding-bottom: 12px;
   }
 
-  .pine-nut-tn {
+  .pine-nut-tn img {
     margin-bottom: 12px;
   }
 
@@ -287,11 +293,41 @@ button.trailer a {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 991px) {
+  .pine-nut-tn img,
+  .up-tech-tn img,
+  .urban-tn img,
+  .home-quarter img {
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.title-header {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .title h1 {
+    font-size: 20px;
+  }
+
+  .hero-text h2 {
+    font-size: 20px;
+  }
+
+  .hero-title p {
+    font-size: 14px;
+  }
+
+  .pine-nut-tn img {
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 375px) {
-  .operation-times-container svg {
-    margin-left: 10px;
+  .operation-times-container {
+    display: none;
   }
 }
