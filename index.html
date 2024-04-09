@@ -28,22 +28,27 @@
 
     <div class="container-fluid">
       <header>
-        <nav>
-          <div class="header-title-container">
-            <div class="col-4 col-md-2 logo">
-              <a class="navbar-brand" href="./index.html">
-                <img
-                  src="./pine-city-mall/images/main-app/gold-logo.png"
-                  alt="Pine City Mall Logo"
-              /></a>
-            </div>
-            <div class="col-8 col-md-8 header-title">
-              <h1 class="text-center">Pine City Shopping Mall</h1>
-            </div>
+        <div
+          class="d-flex flex-wrap justify-content-between align-items-centermy-4 bg-dark"
+        >
+          <div class="col-md-3 d-flex align-items-center">
+            <a class="navbar-brand logo" href="./index.html">
+              <img
+                src="./pine-city-mall/images/main-app/gold-logo.png"
+                alt="Pine City Mall Logo"
+            /></a>
+          </div>
 
-            <!-- Social Icons -->
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center title"
+          >
+            <h1>Pine City Shopping Mall</h1>
+          </div>
 
-            <div class="col-12 col-md-2 header-social-links text-end">
+          <ul
+            class="nav col-md-3 justify-content-end align-items-center list-unstyled d-flex"
+          >
+            <li class="ms-3">
               <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -59,6 +64,8 @@
                   />
                 </svg>
               </a>
+            </li>
+            <li class="ms-3">
               <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -74,6 +81,8 @@
                   />
                 </svg>
               </a>
+            </li>
+            <li class="ms-3">
               <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -89,9 +98,9 @@
                   />
                 </svg>
               </a>
-            </div>
-          </div>
-        </nav>
+            </li>
+          </ul>
+        </div>
 
         <!-- Main Nav Bar -->
 
@@ -289,7 +298,7 @@
               </p>
               <button type="button" class="btn btn-outline-dark">
                 <a
-                  class="text-dark"
+                  class="text-decoration-none"
                   href="./pine-city-mall/about.html"
                   target="_blank"
                   >Learn More</a
@@ -529,9 +538,9 @@
               experience!
             </p>
             <div class="d-grid justify-content-center">
-              <button type="button" class="btn btn-lg btn-dark">
+              <button type="button" class="btn btn-dark">
                 <a
-                  class="text-light"
+                  class="text-light text-decoration-none"
                   href="./pine-city-mall/movies.html"
                   target="_blank"
                   >Book Now!</a
@@ -576,7 +585,7 @@
             <div class="d-grid justify-content-center mb-3">
               <button type="button" class="btn btn-dark">
                 <a
-                  class="text-light"
+                  class="text-light text-decoration-none"
                   href="./pine-city-mall/single-store/urbanscape.html"
                   target="_blank"
                   >Contact Us</a
@@ -611,28 +620,34 @@
             <div class="d-grid justify-content-center pt-1">
               <button type="button" class="btn btn-dark">
                 <a
-                  class="text-light"
+                  class="text-light text-decoration-none"
                   href="./pine-city-mall/single-store/pine-nut.html"
                   >Contact Us</a
                 >
               </button>
             </div>
-            <div class="pine-nut-tn pt-4">
-              <img
-                class="img-fluid rounded"
-                src="pine-city-mall/images/index-specials/pine-nut-tn-1.jpg"
-                alt=""
-              />
-              <img
-                class="img-fluid rounded"
-                src="pine-city-mall/images/index-specials/pine-nut-tn-2.jpg"
-                alt=""
-              />
-              <img
-                class="img-fluid rounded"
-                src="pine-city-mall/images/index-specials/pine-nut-tn-3.jpg"
-                alt=""
-              />
+            <div class="row pine-nut-tn pt-4 d-flex justify-content-center">
+              <div class="col-md-4 col-sm-12">
+                <img
+                  class="img-fluid rounded d-block mx-auto"
+                  src="pine-city-mall/images/index-specials/pine-nut-tn-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <img
+                  class="img-fluid rounded d-block mx-auto"
+                  src="pine-city-mall/images/index-specials/pine-nut-tn-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <img
+                  class="img-fluid rounded d-block mx-auto"
+                  src="pine-city-mall/images/index-specials/pine-nut-tn-3.jpg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div class="col-md-5">
@@ -733,9 +748,27 @@
             </form>
           </div>
         </div>
-        <div class="d-flex flex-column justify-content-between py-4 border-top">
-          <p>&copy; 2024 Company, Inc. All rights reserved.</p>
-          <p>Designed by <i>Jade Harris</i></p>
+        <div class="d-flex justify-content-evenly py-2 border-top">
+          <p>&copy; 2024 All rights reserved.</p>
+          <p>
+            This project was designed by
+            <a
+              href="https://linkedin.com/in/jade-harris-b623b9242"
+              target="_blank"
+              ><i>Jade Harris</i></a
+            >, is deployed on
+            <a
+              href=" https://jadieclair-itvarsity.github.io/Module-2-Assessment-2-/"
+              target="_blank"
+              >GitHub pages</a
+            >
+            and can be found on
+            <a
+              href="https://github.com/jadieclair-ITvarsity/Module-2-Assessment-2-"
+              target="_blank"
+              >Github</a
+            >
+          </p>
         </div>
       </footer>
     </div>

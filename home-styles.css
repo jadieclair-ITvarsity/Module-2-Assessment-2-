@@ -9,46 +9,23 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-button a {
-  text-decoration: none;
+button.btn-outline-dark a {
+  color: #000;
+}
+
+button a:hover {
+  color: #fff;
 }
 
 /* Header and Navigation */
 
-.header-title-container {
-  background-color: #000;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90px;
-}
-
-div.header-title h1 {
-  font-family: "Spectral SC", serif;
-  color: #f1f0f6;
-  text-decoration: underline;
-  font-size: 36px;
-  font-weight: 600;
-  letter-spacing: 1.6px;
-}
-
-div.header-social-links a {
-  text-decoration: none;
-}
-
-.social-icon {
-  margin-right: 20px;
-}
-
-div.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-div.logo img {
+.logo img {
   width: 100px;
+}
+
+.title h1 {
+  color: #fff;
+  letter-spacing: 2px;
 }
 
 .nav-item:hover,
@@ -147,13 +124,13 @@ div.logo img {
   background-color: #afa98e;
 }
 
-.pine-nut-tn {
+.pine-nut-tn-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.pine-nut-tn img {
+img.pine-nut-tn {
   width: 250px;
 }
 
@@ -168,6 +145,7 @@ footer {
     center;
   padding: 15px;
   background-size: cover;
+  width: 100%;
 }
 
 .footer-logo {
@@ -282,4 +260,39 @@ button.trailer a {
 .faq {
   background: url("./pine-city-mall/images/about-page/watermark.png") no-repeat
     center center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .hero-text {
+    position: static;
+    top: auto;
+    left: auto;
+  }
+
+  .hero-text h2 {
+    width: auto;
+    font-size: 36px;
+    line-height: 30px;
+    padding-bottom: 12px;
+  }
+
+  .pine-nut-tn {
+    margin-bottom: 12px;
+  }
+
+  .footer-logo {
+    width: 80px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+}
+
+@media screen and (max-width: 375px) {
+  .operation-times-container svg {
+    margin-left: 10px;
+  }
 }
